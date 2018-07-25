@@ -1,0 +1,12 @@
+import java.awt.BorderLayout;
+import java.awt.Color;
+import javax.swing.JFrame;
+import javax.swing.JSlider;
+import javax.swing.SwingConstants;
+import javax.swing.event.ChangeListener;
+import javax.swing.event.ChanveEvent;
+
+public class SliderFrame extends JFrame{
+
+	
+}
