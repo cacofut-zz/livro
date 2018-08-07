@@ -1,0 +1,6 @@
+import java.security.SecureRandom;
+
+public class PrintTask implements Runnable{
+
+	private static final SecureRandom generator = new SecureRandom();
+}
