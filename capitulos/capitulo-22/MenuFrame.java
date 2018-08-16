@@ -50,13 +50,10 @@ public class MenuFrame extends JFrame{
 		
 		colorItems          = new JRadioButtonMenuItem[colors.length];
 		fonts               = new JRadioButtonMenuItem[fontNames.length];
-
 		colorButtonGroup    = new ButtonGroup();
 		fontButtonGroup     = new ButtonGroup();
-
 		displayLabel        = new JLabel("Sample Text", SwingConstants.CENTER);
-
-		styleItems	    = new JCheckBoxMenuItem[styleNames.length];
+		styleItems	        = new JCheckBoxMenuItem[styleNames.length];
 				
 		ActionListener itemHandler = e -> {
 			for(int i = 0; i < colorItems.length; i++){
