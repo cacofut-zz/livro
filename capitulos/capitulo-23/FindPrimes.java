@@ -16,6 +16,6 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeEvent;
 
 public class FindPrimes extends JFrame{
-
+	private final JTextField highestPrime
 
 }
