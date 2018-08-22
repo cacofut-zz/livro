@@ -1,0 +1,22 @@
+/*
+23.10 (Rebatendo a bola) Escreva um programa que faz uma bola azul rebater dentro de um JPanel. A bola deve começar a se mover com
+um evento mousePressed. Quando a bola atingir a borda do JPanel, ela deve rebater fora da borda e continuar na direção oposta. A
+bola deve ser atualizada com uma interface Runnable.
+*/
+
+import javax.swing.JPanel;
+import javax.swing.JFrame;
+
+class PanelBola extends JPanel{
+
+		
+}
+
+public class Exercicio23_10{
+
+	private JPanel panel;
+	
+	public Exercicio23_10(){
+		panel = new PanelBola(); 
+	}
+}
