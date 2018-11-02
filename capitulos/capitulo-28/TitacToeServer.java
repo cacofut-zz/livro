@@ -69,6 +69,7 @@ public class TicTacToeServer extends JFrame{
 		for( int i = 0; i < players.length; i++ ){
 			try{
 				players[i] = new Player(server.accept(), i);
+				
 			}
 			catch(IOException ioException){
 				ioException.printStackTrace();
