@@ -209,7 +209,7 @@ public class Questoes{
 			System.out.printf( "O caractere %c tem como valor inteiro %d%n", caracteres[i], (int)caracteres[i] );
 		}
 		
-		
+		*/
 		
 		System.out.print("Digite cinco dígitos: ");
 		Scanner input = new Scanner(System.in);
@@ -218,108 +218,6 @@ public class Questoes{
 		for( char c : text.toCharArray()){
 			System.out.print( c + " " );	
 		}
-		
-		
-		//2.31 (Tabela de quadrados e cubos) Utilizando apenas as 
-		//técnicas de programação que aprendeu neste capítulo, 
-		//escreva um aplicativo que
-		//calcule os quadrados e cubos dos números de 0 a 10 e imprima os 
-		//valores resultantes em formato de tabela como a seguir:
-		
-		System.out.printf("%-10s%-10s%-10s%n", "número", "quadrado", "Cubo");
-		for( int i = 0; i <= 10; i++ ){
-			System.out.printf("%-10d%-10d%-10d%n", i, i * i, i * i* i);
-		} 
-		
-		Scanner input = new Scanner(System.in);
-		System.out.printf("Digite o peso em quilogramas: ");
-		double quiloGramas = input.nextDouble();
-		System.out.printf("Digite sua altura: ");
-		double altura = input.nextDouble();
-		double imc = quiloGramas / ( altura * altura );
-		System.out.println();
-		System.out.println();
-		System.out.printf("%s: %f%n", "Índice de massa corporal", imc);
-		System.out.printf("%-15s %s%n", "Abaixo do peso:", "menor que 18.5");
-		System.out.printf("%-15s %s%n", "Normal:", "entre 18.5 e 24.9");
-		System.out.printf("%-15s %s%n", "Acima do peso:", "entre 25 e 29.9");
-		System.out.printf("%-15s %s%n", "Obeso:", "30 ou mais");
-		
-		
-		double populacaoMundialAtual = 7.600000000;
-		double taxaDeCrescimento     = 0.33;
-		
-		for( int i = 1; i <= 5; i++  ){
-			double diferenca = 
-				( populacaoMundialAtual * taxaDeCrescimento ) / 100;
-			
-		populacaoMundialAtual += diferenca;		                    
-			System.out.printf( "%dº %s: %f%n", i, "ano", populacaoMundialAtual );	
-		}
-		*/
-		//2.35 (Calculadora de economia da faixa solidária) 
-		//Pesquise vários sites sobre faixa solidária. Crie um 
-		//aplicativo que calcule o custo diário
-		//de dirigir, para estimar quanto dinheiro pode ser economizado 
-		//com o uso da faixa solidária, que também tem outras vantagens, como
-		//reduzir emissões de carbono e congestionamento de tráfego. 
-		//O aplicativo deve introduzir as seguintes informações e 
-		//exibir o custo por dia
-		//de dirigir para o trabalho do usuário:
-		//a) Quilômetros totais dirigidos por dia.
-		//b) Preço por litro de gasolina.
-		//c) Quilômetros médios por litro.
-		//d) Taxas de estacionamento por dia.
-		//e) Pedágio por dia.
-		
-		Scanner input = new Scanner(System.in);
-		System.out.printf("Digite quilômetros totais dirigidos por dia: ");
-		int quilometros = input.nextInt(); 
-	    //System.out.printf("Digite preço por litro de gasolina");
-		double precoPorLitro = 3.89;//input.nextInt();
-		//System.out.printf("Digite quilômetros médios por litro.");
-		int quilometrosMediosPorLitro = 13;//input.nextInt();
-		System.out.printf("Digite taxas de estacionamento por dia: ");
-		double estacionamento = input.nextInt();
-		System.out.printf("Digite pedágio por dia: ");
-		double pedagio = input.nextInt();
-		System.out.printf("Digite quantas pessoas o acompanham no carro: ");
-		double qtdPessoas = input.nextInt();
-		
-		double total;
-		
-		if( quilometros < quilometrosMediosPorLitro ){
-			int diferenca = quilometrosMediosPorLitro - quilometros;
-			total = diferenca * precoPorLitro / 
-				quilometrosMediosPorLitro + estacionamento + pedagio;
-				
-			System.out.printf("Custo diário trabalho: %f", total );
-		}
-		else if( quilometros == quilometrosMediosPorLitro ){
-			total = precoPorLitro + estacionamento + pedagio;
-			System.out.printf("Custo diário trabalho: %f", precoPorLitro + estacionamento + pedagio );
-		}
-		else{
-			int diferenca = quilometros / quilometrosMediosPorLitro;
-			int resto = quilometros % quilometrosMediosPorLitro;
-			double resultadoFinal = (diferenca * precoPorLitro) + 
-				(( resto * precoPorLitro ) / quilometrosMediosPorLitro + estacionamento + pedagio );
-			total = resultadoFinal;
-			System.out.printf("Custo diário trabalho: %f%n", resultadoFinal );
-		}
-		
-		if( qtdPessoas <= 1 ){
-			System.out.printf("Você não economizou e não ajudou o meio ambiente");
-		}
-		else{
-			System.out.printf( "%s %f %s", "Você economizou", total - (total / qtdPessoas), 
-				"e ajudou o meio ambiente");
-		}
-		
-		
-		
-		
-		
 		
 	}
 }
