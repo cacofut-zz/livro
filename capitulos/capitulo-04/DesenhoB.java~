@@ -23,32 +23,31 @@ public class DesenhoB extends JPanel{
 		
 		int cx1 = w;
 		int cy1 = h;
-		int cx2 = 0;
-		int cy2 = h;
+		int cx2 = w;
+		int cy2 = 0;
 		
 		int dx1 = 0;
 		int dy1 = h;
-		int dx2 = 0;
-		int dy2 = 0;
+		int dx2 = w;
+		int dy2 = h;
 		
-		int limite = 15;
-		for( int i = 0; i < limite; i++ ){
-			int espacoX = w / limite;
-			int espacoY = h / limite;			
+		for( int i = 0; i < 15; i++ ){
 			g.drawLine(ax1, ay1, ax2, ay2);
 			g.drawLine(bx1, by1, bx2, by2);
 			g.drawLine(cx1, cy1, cx2, cy2);
-			g.drawLine(dx1, dy1, dx2, dy2);			
-			ax2 += espacoX;
-			ay2 -= espacoY;    
-			bx2 += espacoX;  
-			by2 += espacoY;
-			cx2 += espacoX;
-			cy2 -= espacoY;
-			dx2 += espacoX;
-			dy2 += espacoY;
-						
-		}				
+			g.drawLine(dx1, dy1, dx2, dy2);
+			ax2 += 15;
+			ay2 -= 15;     									
+			bx2 += 15;  
+			by2 += 15;
+			cx2 -= 15;
+			cy2 += 15;
+			dx2 -= 15;
+			dy2 -= 15;
+			
+			
+		}
+		
 		
 	}
 }
