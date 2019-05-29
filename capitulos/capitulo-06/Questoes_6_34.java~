@@ -82,7 +82,7 @@ public class Questoes_6_34{
 	public static void auxOctal(int decimal, StringBuilder builder){
 		int divisor = 8;
 		int quociente = decimal / divisor; // 12, 1
-		int resto     = decimal % divisor; // 5, 4
+		int resto     = decimal % divisor // 5, 4
 		
 		if( decimal < divisor ){
 			builder.append(decimal);
