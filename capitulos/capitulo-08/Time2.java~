@@ -13,7 +13,7 @@ public class Time2{
 		this(hour, 0, 0);
 	}
 	
-	public Time2(int hour, int minute){
+	public Time2(int hour int minute){
 		this(hour, minute, 0);
 	}
 			
@@ -68,15 +68,15 @@ public class Time2{
 		this.second = second;
 	}
 	
-	public int getHour(){
+	public String getHour(){
 		return hour;
 	}
 	
-	public int getMinute(){
+	public String getMinute(){
 		return minute;
 	}
 	
-	public int getSecond(){
+	public String getSecond(){
 		return second;
 	}
 	
