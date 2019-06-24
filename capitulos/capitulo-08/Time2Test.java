@@ -16,6 +16,22 @@ public class Time2Test{
 		displayTime("t3: hour and minute specified; default second", t3);
 		displayTime("t4: hour, minute and second specified", t4);
 		displayTime("t5: Time2 object t4 specified", t5);
+
+		for(int i = 1; i <= 60; i++){
+			t1.tick();
+			displayTime("t1: all default arguments", t1);
+		}
+
+		for(int i = 1; i < 60; i++){
+			t1.incrementMinute();
+			displayTime("t1: all default arguments", t1);
+		}
+
+		for(int i = 1; i <= 24; i++){
+			t1.incrementHour();
+			displayTime("t1: all default arguments", t1);
+		}
+
 		
 		try{
 		

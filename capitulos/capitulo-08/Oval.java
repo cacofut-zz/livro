@@ -9,7 +9,7 @@ public class Oval extends Shape{
 	
 	public void draw(Graphics g){
 		g.drawOval(getUpperLeftX(), getUpperLeftY(), 
-			getWith(), getHeight());
+		getWidth(), getHeight());
 	}
 	
 }
