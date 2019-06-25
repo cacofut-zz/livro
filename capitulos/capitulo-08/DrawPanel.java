@@ -30,6 +30,8 @@ public class DrawPanel extends JPanel{
 		}
 		
 		Rectangle rectangle = new Rectangle(10, 10, 50, 50);
+		Oval oval = new Oval(60, 60, 120, 180);
+		oval.draw(g);
 		rectangle.draw(g);
 	}
 }
