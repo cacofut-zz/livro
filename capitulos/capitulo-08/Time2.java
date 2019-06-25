@@ -90,4 +90,35 @@ public class Time2{
 			((getHour() == 0 || getHour() == 12) ? 12 : getHour() % 12),
 			getMinute(), getSecond(), (getHour() < 12 ? "AM" : "PM"));
 	}
+
+	public void tick(){
+		int second = getSecond();
+		if(second < 59){
+			setSecond(second + 1);
+			return;
+		}
+		setSecond(0);
+		incrementMinute();
+	}
+
+	public void incrementMinute(){
+		int minute = getMinute();
+		if(minute < 59){
+			setMinute(minute + 1);
+			return;
+		}
+		setMinute(0);
+		incrementHour();
+	}
+
+	public void incrementHour(){
+		int hour = getHour();
+		if(hour < 23){
+			setHour(hour + 1);
+			return;
+		}
+		setHour(0);
+	}
+
+
 }
