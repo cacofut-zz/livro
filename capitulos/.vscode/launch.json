@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IntegerSet",
+            "request": "launch",
+            "mainClass": "IntegerSet"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DateAndTimeTest",
+            "request": "launch",
+            "mainClass": "DateAndTimeTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestDate",
+            "request": "launch",
+            "mainClass": "TestDate"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Time2Test",
+            "request": "launch",
+            "mainClass": "Time2Test"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SavingsAccountTest",
+            "request": "launch",
+            "mainClass": "SavingsAccountTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SavingsAccount",
+            "request": "launch",
+            "mainClass": "SavingsAccount"
+        }
+    ]
+}
