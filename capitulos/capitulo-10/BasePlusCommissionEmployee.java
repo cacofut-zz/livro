@@ -1,13 +1,13 @@
-
+import java.time.LocalDate;
 
 public class BasePlusCommissionEmployee extends CommissionEmployee{
 
     private double baseSalary;
 
-    public BasePlusCommissionEmployee(String firstName, String lastName, 
-        String socialSecurityNumber, double grossSales,
+    public BasePlusCommissionEmployee(String firstName, String lastName, String socialSecurityNumber, 
+        LocalDate birthDate, double grossSales,
         double commissionRate, double baseSalary){
-            super(firstName, lastName, socialSecurityNumber, grossSales, commissionRate);
+            super(firstName, lastName, socialSecurityNumber, birthDate, grossSales, commissionRate);
             validBaseSalary(baseSalary);
             this.baseSalary = baseSalary;         
     }

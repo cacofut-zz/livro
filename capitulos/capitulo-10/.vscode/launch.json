@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyShapesTest",
+            "request": "launch",
+            "mainClass": "MyShapesTest",
+            "projectName": "capitulo-10_f8dff8e"
+        }
+    ]
+}

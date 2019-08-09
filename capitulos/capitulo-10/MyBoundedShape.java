@@ -31,23 +31,11 @@ public abstract class MyBoundedShape extends MyShape {
     }
 
     public int getHeight() {
-        return Math.abs(getY1() - getX2());
+        return Math.abs(getY1() - getY2());
     }
 
     public void setHeight(int height) {
         setY2(getY1() + height);
     }
-
-    @Override
-    public void draw(Graphics g) {
-        g.setColor(getColor());
-        if(getFilled()){
-            g.fillRect(getX1(), getY1(), getWidth(), getHeight());
-            return;
-        }
-        g.drawRect(getX1(), getY1(), getWidth(), getHeight());
-    }
-
-    
 
 }

@@ -1,13 +1,13 @@
-
+import java.time.LocalDate;
 
 public class CommissionEmployee extends Employee{
 
     private double grossSales;
     private double commissionRate;
 
-    public CommissionEmployee(String firstName, String lastname, 
-        String socialSecurityNumber, double grossSales, double commissionRate){
-            super(firstName, lastname, socialSecurityNumber);
+    public CommissionEmployee(String firstName, String lastname, String socialSecurityNumber, 
+            LocalDate birthDate, double grossSales, double commissionRate){
+            super(firstName, lastname, socialSecurityNumber, birthDate);
             validGrossSales(grossSales);
             validcommissionRate(commissionRate);
             this.grossSales    = grossSales;

@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 
 
 public class SalariedEmployee extends Employee{
@@ -5,8 +6,8 @@ public class SalariedEmployee extends Employee{
     private double weeklySalary;
 
     public SalariedEmployee(String firstName, String lastName, String socialSecurityNumber, 
-        double weeklySalary){        
-        super(firstName, lastName, socialSecurityNumber);
+        LocalDate birthDate, double weeklySalary){        
+        super(firstName, lastName, socialSecurityNumber, birthDate);
         SalariedEmployee.validWeeklySalary(weeklySalary);
         this.weeklySalary = weeklySalary;
     }
