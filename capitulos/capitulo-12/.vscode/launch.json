@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Painter",
+            "request": "launch",
+            "mainClass": "Painter",
+            "projectName": "capitulo-12_f8dff90"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MouseTracker",
+            "request": "launch",
+            "mainClass": "MouseTracker",
+            "projectName": "capitulo-12_f8dff90"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MultipleSelectionTest",
+            "request": "launch",
+            "mainClass": "MultipleSelectionTest",
+            "projectName": "capitulo-12_f8dff90"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ListTest",
+            "request": "launch",
+            "mainClass": "ListTest",
+            "projectName": "capitulo-12_f8dff90"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ComboBoxTest",
+            "request": "launch",
+            "mainClass": "ComboBoxTest",
+            "projectName": "capitulo-12_f8dff90"
+        }
+    ]
+}
