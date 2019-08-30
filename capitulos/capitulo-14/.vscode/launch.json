@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringValueOf",
+            "request": "launch",
+            "mainClass": "StringValueOf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringMiscellaneous2",
+            "request": "launch",
+            "mainClass": "StringMiscellaneous2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringConcatenation",
+            "request": "launch",
+            "mainClass": "StringConcatenation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubString",
+            "request": "launch",
+            "mainClass": "SubString"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringIndexMethods",
+            "request": "launch",
+            "mainClass": "StringIndexMethods"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringStartEnd",
+            "request": "launch",
+            "mainClass": "StringStartEnd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringCompare",
+            "request": "launch",
+            "mainClass": "StringCompare"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringMiscellaneous",
+            "request": "launch",
+            "mainClass": "StringMiscellaneous"
+        }
+    ]
+}
