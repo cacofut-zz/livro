@@ -2,6 +2,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Program2",
+            "request": "launch",
+            "mainClass": "Program2",
+            "projectName": "capitulo-14_f8dff92"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Program1",
+            "request": "launch",
+            "mainClass": "Program1",
+            "projectName": "capitulo-14_f8dff92"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Questao_14_7",
+            "request": "launch",
+            "mainClass": "Questao_14_7",
+            "projectName": "capitulo-14_f8dff92"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringBuilderAppend",
+            "request": "launch",
+            "mainClass": "StringBuilderAppend",
+            "projectName": "capitulo-14_f8dff92"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringBuilderChars",
+            "request": "launch",
+            "mainClass": "StringBuilderChars",
+            "projectName": "capitulo-14_f8dff92"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringBuilderChars",
+            "request": "launch",
+            "mainClass": "questoes.StringBuilderChars",
+            "projectName": "capitulo-14_f8dff92"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringBuilderCapLen",
+            "request": "launch",
+            "mainClass": "StringBuilderCapLen",
+            "projectName": "capitulo-14_f8dff92"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StringValueOf",
             "request": "launch",
             "mainClass": "StringValueOf"
