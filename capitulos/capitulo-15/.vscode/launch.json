@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio3",
+            "request": "launch",
+            "mainClass": "Exercicio3",
+            "projectName": "capitulo-15_f8dff93"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio2",
+            "request": "launch",
+            "mainClass": "Exercicio2",
+            "projectName": "capitulo-15_f8dff93"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReadTextFileVotos",
+            "request": "launch",
+            "mainClass": "ReadTextFileVotos",
+            "projectName": "capitulo-15_f8dff93"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CreateTextFileVotos",
+            "request": "launch",
+            "mainClass": "CreateTextFileVotos",
+            "projectName": "capitulo-15_f8dff93"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio1",
+            "request": "launch",
+            "mainClass": "Exercicio1",
+            "projectName": "capitulo-15_f8dff93"
+        }
+    ]
+}
