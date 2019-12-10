@@ -22,7 +22,13 @@ public class ListTest{
         list2 = null;
         printList(list1);
 
+        convertToUppercaseStrings(list1);
+        printList(list1);
 
+        System.out.printf("%nDeleting elements 4 to 6...");
+        removeItems(list1, 4, 7);
+        printList(list1);
+        printReversedList(list1);
 
     }
 
@@ -46,6 +52,16 @@ public class ListTest{
 
     private static void removeItems(List<String> list, int start, int end){
         list.subList(start, end).clear();
+    }
+
+    private static void printReversedList(List<String> list){
+        ListIterator<String> iterator = list.listIterator(list.size());
+
+        System.out.printf("%nReversed List:%n");
+
+        while(iterator.hasPrevious())
+            System.out.printf("%s ", iterator.previous());
+        
     }
 
 }
